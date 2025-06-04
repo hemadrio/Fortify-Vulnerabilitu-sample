@@ -56,7 +56,12 @@ public class AllSeverityVulnerableDemo extends HttpServlet {
         } catch (Exception e) {
             // empty catch block
         }
-
+         try {
+            System.out.println("");
+        } catch (Exception e) {
+            // empty catch block
+        }
+            
         // WARNING: Insecure deserialization
         try {
             byte[] data = Base64.getDecoder().decode("rO0ABXQAB0hlbGxvIQ==");
