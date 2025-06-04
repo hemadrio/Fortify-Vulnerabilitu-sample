@@ -1,0 +1,4 @@
+- uses: github/codeql-action/init@v3
+  with:
+    languages: java
+    queries: +security-extended,security-and-quality
